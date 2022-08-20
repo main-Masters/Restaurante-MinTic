@@ -5,7 +5,7 @@ public class MovimientoDinero {
 
     public MovimientoDinero(int monto, String concepto, String usuario) {
         this.monto = monto;
-        Concepto = concepto;
+        this.Concepto = concepto;
         this.usuario = usuario;
     }
 
