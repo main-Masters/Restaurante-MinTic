@@ -1,11 +1,11 @@
 public class MovimientoDinero {
     private int monto;
-    private String Concepto;
+    private String concepto;
     private String usuario;
 
     public MovimientoDinero(int monto, String concepto, String usuario) {
         this.monto = monto;
-        this.Concepto = concepto;
+        this.concepto = concepto;
         this.usuario = usuario;
     }
 
@@ -18,11 +18,11 @@ public class MovimientoDinero {
     }
 
     public String getConcepto() {
-        return Concepto;
+        return concepto;
     }
 
     public void setConcepto(String concepto) {
-        Concepto = concepto;
+        this.concepto = concepto;
     }
 
     public String getUsuario() {
